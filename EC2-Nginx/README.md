@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the deployment and administration of an **Ubuntu Linux server on AWS EC2** using the AWS Free Tier.
+This project demonstrates deploying and administering an **Ubuntu Linux server on AWS EC2** using the AWS Free Tier.
 
 The goal of this lab was to gain practical experience with Linux system administration, remote server access, system services, logs, permissions, package management, web server configuration, and basic troubleshooting.
 
@@ -340,22 +340,6 @@ Nginx
 APT
 Git/GitHub
 ```
-
----
-
-## Security Notice
-Sensitive information such as:
-
-* AWS credentials
-* SSH private keys
-* Passwords
-* Account credentials
-
-must never be committed to this repository.
-
-Public screenshots should also be reviewed to ensure that sensitive account information, public IP addresses, or other unnecessary infrastructure details are removed or redacted.
-
----
 
 ## Project Status
 
