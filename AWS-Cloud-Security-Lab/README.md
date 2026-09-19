@@ -52,6 +52,7 @@ The main objectives of this project were to:
 | Amazon VPC | Network infrastructure |
 | Amazon EC2 | Linux cloud server |
 | Security Groups | Network access control |
+| Nginx | Linux cloud server |
 | IAM | Identity and access management |
 | Amazon S3 | Object storage |
 | Amazon CloudWatch | Monitoring and logging |
@@ -187,7 +188,7 @@ Important ports included:
 Example:
 
 ```
-ssh -i "linux-key.pem" ubuntu@<PUBLIC-IP>
+ssh -i "<private-key>" ec2-user@<PUBLIC-IP>
 ```
 
 ### Skills Demonstrated
