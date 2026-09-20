@@ -54,27 +54,31 @@ Access to all S3 buckets
 Access to a specific S3 bucket
 
 ## Health Check
+
 A Linux health-check script was also created to report:
 
-Hostname
-Disk usage
-Memory
-CPU load
-Nginx status
-Network route
+- Hostname
+- Disk usage
+- Memory
+- CPU load
+- Nginx status
+- Network route
 
 ## Skills Demonstrated
-Linux networking
-DNS troubleshooting
-Routing
-HTTPS connectivity testing
-AWS CLI
-IAM roles
-IAM policies
-S3 permissions
-AccessDenied troubleshooting
-Bash scripting
 
+- Linux networking
+- DNS troubleshooting
+- Routing
+- HTTPS connectivity testing
+- AWS CLI
+- IAM roles
+- IAM policies
+- S3 permissions
+- AccessDenied troubleshooting
+- Bash scripting
 
-## Related screenshots:
-screenshots/day10-network-dns-iam/
+## Evidence
+
+Related screenshots:
+
+- `screenshots/day10-network-dns-iam/`
