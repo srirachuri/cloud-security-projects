@@ -43,13 +43,16 @@ HTTP/1.1 200 OK
 This confirmed that Nginx was running and serving HTTP requests.
 
 ## Skills Demonstrated
-Nginx
-Linux systemd
-Service troubleshooting
-HTTP troubleshooting
-Localhost testing
-Recovery verification
-Evidence
 
-## Related screenshots:
-screenshots/day08-nginx-troubleshooting/
+- Nginx
+- Linux systemd
+- Service troubleshooting
+- HTTP troubleshooting
+- Localhost testing
+- Recovery verification
+
+## Evidence
+
+Related screenshots:
+
+- `screenshots/day08-nginx-troubleshooting/`
