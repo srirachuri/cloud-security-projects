@@ -2,15 +2,15 @@
 
 ## Problem
 
-The EC2 instance could not be accessed correctly through SSH, and the web application was initially unreachable through HTTP.
+The EC2 instance could not be accessed correctly through SSH, and the website was initially unreachable through HTTP.
 
 ## Investigation
 
-I checked the EC2 instance state, Security Group rules, network connectivity, and service availability.
+I checked the EC2 instance state, Security Group rules, network connectivity, and web server availability.
 
 For SSH, I verified:
 
-- EC2 instance was running
+- The EC2 instance was running
 - SSH port 22 was configured in the Security Group
 - Network connectivity was tested
 - SSH authentication was verified
@@ -25,26 +25,28 @@ For HTTP, I checked:
 
 ## Troubleshooting Approach
 
-1. Check EC2 instance state.
+1. Check the EC2 instance state.
 2. Check Security Group inbound rules.
-3. Verify SSH connectivity.
-4. Check whether the web server is running.
+3. Test SSH connectivity.
+4. Check web server availability.
 5. Test HTTP locally.
-6. Check port 80 access from the internet.
+6. Test HTTP connectivity externally.
 7. Restore the required Security Group rule.
 8. Verify connectivity again.
 
 ## Root Cause
 
-The connectivity problems were caused by incorrect or missing network access configuration and service availability during the controlled troubleshooting exercises.
+The connectivity issues were caused by controlled changes to the Security Group configuration and service availability during the troubleshooting exercises.
+
+In particular, removing the required HTTP port 80 inbound rule prevented external HTTP access even though the web server was running locally.
 
 ## Resolution
 
-The required Security Group rules and services were restored.
+The required Security Group rules were restored, and the required services were started.
 
 SSH connectivity was verified successfully.
 
-HTTP connectivity was also restored after correcting the required configuration.
+HTTP connectivity was restored after allowing TCP port 80 in the Security Group.
 
 ## Verification
 
@@ -53,17 +55,19 @@ The final tests confirmed:
 - SSH connection successful
 - HTTP connectivity restored
 - Website accessible
-- Required ports available
+- Port 80 available
+- Web server responding successfully
 
 ## Skills Demonstrated
 
 - EC2 troubleshooting
-- Security Groups
+- AWS Security Groups
 - SSH
 - HTTP
 - TCP ports
 - Network troubleshooting
 - Linux troubleshooting
+- Root-cause analysis
 
 ## Evidence
 
