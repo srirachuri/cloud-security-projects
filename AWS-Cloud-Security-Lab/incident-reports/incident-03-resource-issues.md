@@ -39,23 +39,27 @@ A controlled memory-intensive Python process was used to simulate memory pressur
 The process was identified, and memory usage returned to normal after the process ended.
 
 ## Verification
+
 The final checks confirmed that:
 
-Disk usage returned to normal
-CPU utilisation returned to normal
-Memory availability recovered
+- Disk usage returned to normal
+- CPU utilisation returned to normal
+- Memory availability recovered
 
 ## Skills Demonstrated
-Linux resource monitoring
-Disk troubleshooting
-CPU troubleshooting
-Memory troubleshooting
-df
-du
-top
-free
-Process identification and termination
-Evidence
 
-## Related screenshots:
-screenshots/day09-resource-troubleshooting/
+- Linux resource monitoring
+- Disk troubleshooting
+- CPU troubleshooting
+- Memory troubleshooting
+- `df`
+- `du`
+- `top`
+- `free`
+- Process identification and termination
+
+## Evidence
+
+Related screenshots:
+
+- `screenshots/day09-resource-troubleshooting/`
