@@ -1,1 +1,1 @@
-
+Inspected Azure NSG inbound security rules for SSH (TCP 22), HTTP (TCP 80), and HTTPS (TCP 443). The initial configuration allowed traffic from Any source. This exercise helped identify the importance of restricting administrative access.
