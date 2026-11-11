@@ -237,7 +237,7 @@ ip route
 sudo ss -tulpn
 ```
 
-The VM was accessed through SSH, and its network interface, routes, and listening ports were investigated.
+I accessed the VM via SSH and investigated its network interface, routes, and listening ports.
 
 ## Skills Demonstrated
 
